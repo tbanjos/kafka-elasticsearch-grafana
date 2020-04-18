@@ -41,7 +41,6 @@ services:
     environment:
       - discovery.type=single-node
       - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
-
   kafkaconnect:
     image: confluentinc/cp-kafka-connect:5.4.0
     container_name: kafkaconnect    
